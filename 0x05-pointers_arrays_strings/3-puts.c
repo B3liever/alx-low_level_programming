@@ -2,14 +2,13 @@
 
 /**
  * _puts - prints  a string
- * @str: a pointer to an int that will be changed
- *
- * Return:void which means answer is correct
+ * @str: a string to be printed
  */
-
 void _puts(char *str)
 {
-	char **c;
-	int 
+	while (*str != '\0')
+	{
+		_putchar(*str++);
+	}
 	_putchar('\n');
 }
