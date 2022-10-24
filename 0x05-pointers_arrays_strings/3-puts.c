@@ -1,15 +1,15 @@
-#include <stdout.h>
+#include "main.h"
 
 /**
  * _puts - prints  a string
- * @str: string to be printed
+ * @str: a pointer to an int that will be changed
+ *
+ * Return:void which means answer is correct
  */
 
 void _puts(char *str)
 {
-	while (*str != '\0')
-	{
-		_putchar(*str++);
-	}
+	char **c;
+	int 
 	_putchar('\n');
 }

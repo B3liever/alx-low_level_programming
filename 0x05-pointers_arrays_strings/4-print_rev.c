@@ -3,6 +3,8 @@
 /**
  * print_rev - prints a string in reverse
  * @s: string to be printed
+ *
+ * Return :void which means aswer is correct
  */
 void print_rev(char *s)
 {
