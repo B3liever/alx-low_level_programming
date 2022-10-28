@@ -2,15 +2,15 @@
 #include <stdlib.h>
 
 /**
- * main - returns alphabet
+ * main - returns alphabets
  *
- * Return : Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int ch = 'a';
 
-	while (ch  <= '2')
+	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
