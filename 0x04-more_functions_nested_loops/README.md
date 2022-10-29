@@ -1,2 +1,1 @@
- function that checks for uppercase character.
-
+more functions and nested loops
