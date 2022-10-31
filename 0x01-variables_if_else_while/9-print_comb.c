@@ -1,26 +1,30 @@
 #include <stdio.h>
 
 /**
- * main - prints the numbers in base 16
- *
- * Return: Always 0 (success)
+ * main - entry point to program
+ * prints combinations of 1-digit numbers
+ * Return: 0 (Success)
  */
 int main(void)
 {
-	int a;
+	int number = 0;
 
-	for (a = 0; a < 100; a++)
-	{
-
-		putchar(a + '0');
-		if (a < 99)
+	do {
+		putchar(number + 48);
+		if (number < 9)
 		{
-			putchar(',');
-			putchar(' ');
+			putchar(44);
+			putchar(32);
+
 		}
-	}
-	putchar('\n');
-	return (0);
+		number++;
+	    } while (number < 10);
+
+	putchar(10);
+
+	return(0);
 }
+
+
 
 
