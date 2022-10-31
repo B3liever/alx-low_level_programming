@@ -19,12 +19,14 @@ char *cap_string(char *s)
 		if (i == 0 || s[i - 1] == seps[j])
 		{
 			if (s[i] > 97 && s[i] < 123)
-				s[i] -= 32;
-
+					s[i] -= 32;
+			
 		}
 		}
-
-		return (s);
+		
+		
 	}
-}
 
+	return (s);
+}
+	
