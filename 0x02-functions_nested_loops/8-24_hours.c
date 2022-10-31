@@ -2,6 +2,8 @@
 
 /**
  * jack_bauer - prints every minute of the day
+ *
+ * Return: returns void
  */
 
 void jack_bauer(void)
