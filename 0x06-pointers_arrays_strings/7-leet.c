@@ -5,6 +5,7 @@
  * @s: string to encode
  * Return: pointer to s
  */
+
 char *leet(char *s)
 {
 	int i, j;
