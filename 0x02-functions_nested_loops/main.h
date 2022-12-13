@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef "MAIN.H"
+#define "MAIN.H"
 
 int _putchar(char);
 void print_alphabet(void);
@@ -17,15 +17,5 @@ void print_times_table(int n);
 void num(int r, int n);
 
 #endif
-
-
-
-
-
-
-
-
-
-
 
 
