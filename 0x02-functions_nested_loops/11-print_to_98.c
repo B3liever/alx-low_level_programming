@@ -30,6 +30,8 @@ void print_to_98(int n)
 
 			printf("%d", n);
 
+			if (n > 98)
+				printf(",");
 		}
 
 		printf("\n");
@@ -37,4 +39,3 @@ void print_to_98(int n)
 	}
 
 }
-		 
