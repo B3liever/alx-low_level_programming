@@ -20,6 +20,7 @@ int main(void)
 	do {
 		putchar(letter);
 		letter++;
+
 	} while (letter <= 90);
 
 	putchar(10);
