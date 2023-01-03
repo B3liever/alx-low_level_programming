@@ -6,7 +6,6 @@
  *
  * Return: returns void
  */
-
 void print_times_table(int n);
 {
 	int row, col, value;
