@@ -22,6 +22,7 @@ void print_number(int n)
 	digits = count_digits(big_n);
 	if (big_n < 10)
 		_putchar(big_n + 48);
+
 	else if (big_n > 9 && big_n < 100)
 	{
 		_putchar((big_n / 10) + 48);
