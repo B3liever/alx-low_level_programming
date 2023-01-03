@@ -3,14 +3,9 @@
 
 
 /**
- *
- *  * main - test positive_or_negative()
- *
- *   *
- *
- *    * Return: 0 (success)
- *
- *     */
+ * main - test positive_or_negative()
+ * Return: 0 (success)
+ */
 
 int main(void)
 {
