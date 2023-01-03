@@ -4,6 +4,7 @@
  * times_table - print the  9 times table
  * Return : void
  */
+
 void times_table(void)
 {
 	int row, col, value;
@@ -18,8 +19,14 @@ void times_table(void)
 			{
 				_putchar((value / 10) + 48);
 				_putchar((value % 10) + 48);
-
 			}
+
+			else if (col != 0)
+			{
+				_putchar(32);
+				_putchar(value + 48);
+			}
+
 			else
 			{
 				_putchar(value + 48);
@@ -36,5 +43,4 @@ void times_table(void)
 		_putchar(10);
 
 	}
-
 }
