@@ -22,8 +22,16 @@ void print_times_table(int n);
 					_putchar((value / 100) + 48);
 					_putchar(((value / 10) % 10) + 48);
 					_putchar((value % 10) + 48);
+
 				}
 				else if (value > 9)
+				{
+					_putchar(32);
+					_putchar((value / 10) + 48);
+					_putchar((value % 10) + 48);
+
+				}
+				else if (col != 0)
 				{
 					_putchar(32);
 					_putchar(32);
@@ -33,12 +41,12 @@ void print_times_table(int n);
 				{
 					_putchar(value + 48);
 				}
-
 				if (col < n)
 				{
 					_putchar(44);
 					_putchar(32);
 				}
+
 			}
 			_putchar(10);
 		}
