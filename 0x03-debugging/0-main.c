@@ -1,12 +1,9 @@
 #include "main.h"
 
-
-
 /**
  * main - test positive_or_negative()
  * Return: 0 (success)
  */
-
 int main(void)
 {
 	int i;
@@ -17,5 +14,4 @@ int main(void)
 	positive_or_negative(i);
 
 	return (0);
-
 }
